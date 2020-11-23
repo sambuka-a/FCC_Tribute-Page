@@ -8,28 +8,6 @@
     text-align: center;
     }
 
-@media only screen and (max-width: 480px) {
-    #title {
-        font-size: 2rem;
-        margin: 1% auto;
-    }  
-    p {
-        margin: 1%;
-    }
-    li {
-        font-size: 1rem;
-    }
-    ul {
-        padding: 2% 10%;
-    }
-    blockquote p {
-        margin: 5% 10%;
-    }
-    #h3 {
-        font-size: 1rem;
-    }
-} 
-
 h1 {
     font-size: 4rem;
     margin-bottom: 0;
@@ -41,12 +19,13 @@ p {
 
 #figcaption {
     background-color: white;
-    padding: 5px;
+    padding: 5px 10px;
     margin: 10px;
 }
 
 #name {
     max-width: 100%;
+    padding: 0.5rem;
 }
 
 #img-caption {
@@ -55,6 +34,15 @@ p {
 
 #tribute-info {
     font-size: 2rem;
+}
+
+#award {
+    margin: 2rem auto;
+    background-color: white;
+}
+
+#award_vid {
+    margin: 0.5rem auto;
 }
 
 ul {
@@ -84,4 +72,5 @@ blockquote p {
 h3 {
     padding: 2%;
     font-size: 1.5rem;
+
 }
